@@ -67,6 +67,9 @@ function search(){
 	fullUrl = baseUrl + encodedQuery + year;
 	console.log(fullUrl);
 	document.location=fullUrl;
+
+	// flip the 'Search' to 'Searching...' so user knows something is happening
+	document.getElementById("searchbutton").innerHTML='Searching...';
 }
 </script>
 
