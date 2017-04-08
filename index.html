@@ -28,11 +28,32 @@ body, html, #wrapper { width: 100%; height: 100% }
 #searchbox {
 	font-size: 2em;
 	width: 50%;
+    padding: 10px;
+    border-radius: 10px;
 }
+#searchbox:focus{
+    outline:none;
+    /*border: 1px solid #4195fc; */
+    /*border: 1px solid #d3d3d3; */
+    /* create a BIG glow */
+
+    /* #007FFF */
+    /* box-shadow: 0px 0px 10px #369; */
+    box-shadow: 0px 0px 10px #007FFF;
+    -moz-box-shadow: 0px 0px 10px #007FFF;
+    -webkit-box-shadow: 0px 0px 10px #007FFF; /* this is chrome */
+}
+
 #searchbutton {
 	margin-top: 10px;
 	font-size: 2em;
 	width: 50%;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 0px;
+    padding:0.5em;
+    font-size: 1.25em;
+    width: 50%;
 }
 </style>
 
